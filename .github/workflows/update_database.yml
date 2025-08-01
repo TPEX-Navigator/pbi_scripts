@@ -1,0 +1,32 @@
+name: Run database update script twice per hour
+
+on:
+  schedule:
+    - cron: '*/35 * * * *'
+  workflow_dispatch:
+
+jobs:
+  run-databaseupdate:
+    runs-on: ubuntu-latest
+
+    env:
+      GRAPH_API_CLIENT_ID: ${{ secrets.GRAPH_API_CLIENT_ID }}
+      GRAPH_API_CLIENT_SECRET: ${{ secrets.GRAPH_API_CLIENT_SECRET }}
+      GRAPH_API_TENANT_ID: ${{ secrets.GRAPH_API_TENANT_ID }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r Scripts/src/databaseupdate/requirements.txt
+
+      - name: Run database update script
+        run: python Scripts/src/databaseupdate/databaseupdate.py

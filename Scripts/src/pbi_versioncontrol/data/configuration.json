@@ -1,0 +1,176 @@
+{
+  "Zero-value": {
+    "ED_Water": [
+      "c8bd952b-e6e5-462a-ae6f-ddff3dcc1d7f",
+      "7cb7bc11-50a7-4042-bb6a-d4fe48fe04cf",
+      "31c36a24-5bf4-447d-9aa1-00eb97b54b7d",
+      "c8bd952b-e6e5-462a-ae6f-ddff3dcc1d7f",
+      "7cb7bc11-50a7-4042-bb6a-d4fe48fe04cf",
+      "31c36a24-5bf4-447d-9aa1-00eb97b54b7d"
+    ],
+    "TDemo": [
+      "99cc24c5-fa7e-4471-8a7d-38bb45609ffd"
+    ],
+    "BI_Occupancy": [
+      "8f488713",
+      "2adf160d",
+      "85178393",
+      "088304b7",
+      "d6bcf73d",
+      "eefa0c7b",
+      "36c8777b",
+      "437b8c84",
+      "66412c91",
+      "99b2a473",
+      "46497225",
+      "6d124ff8",
+      "e40cb4bc",
+      "0d2e3fa0",
+      "018b2368",
+      "c6bac27b",
+      "bf0c1be3",
+      "916558cc",
+      "b04b6ba1",
+      "8a2a5580",
+      "cbeca914",
+      "aa1220ad",
+      "47634926",
+      "9ff944ee",
+      "8bb6b8bb",
+      "60f284b5",
+      "8904a8d4",
+      "d726d102",
+      "d6dc5afc",
+      "9c44c70e",
+      "3d119706"
+    ],
+    "BI_Wellbeing": [
+      "0a54fefb",
+      "08847abf",
+      "752f1a89",
+      "78fef5c4",
+      "9d544af8",
+      "68afb799",
+      "627f849e",
+      "87932454",
+      "dace5e5f",
+      "778ef9db",
+      "57623f43",
+      "d42015e4",
+      "a55c9d9e",
+      "a9db2496",
+      "c0b7b12e",
+      "63eb4c99",
+      "5fb8e0ef",
+      "fdc8d58c",
+      "3b16b579",
+      "968ee475",
+      "f2bba9c4",
+      "7a630965",
+      "a3faf4eb",
+      "3d4e8172",
+      "60c8c994",
+      "30188ffd",
+      "d6ca80b7",
+      "5bb72778",
+      "a4df1d9c",
+      "e209a6da",
+      "79d0784e",
+      "18337bd9",
+      "0d68eb5c",
+      "855a7a4e",
+      "6908d542",
+      "8f306a50",
+      "9e199c6e",
+      "628a137a",
+      "1d3b0304",
+      "700994b7",
+      "90ec2ad3",
+      "732cb7db",
+      "6d2b5978",
+      "572381c5",
+      "e8b7a7d1",
+      "3207cee7",
+      "2ad46939",
+      "574f96d8",
+      "9f0fe91b",
+      "cd5d4c35",
+      "c49bd0b6"
+    ],
+    "NSI_Energy": [
+      "39bb4389",
+      "39bb4389"
+    ],
+    "NSI_Occupancy": [
+      "1"
+    ],
+    "NSI_Wellbeing": []
+  },
+  "Frozen Sensors": {
+    "TDemo": [
+      "4f3a96c2-2f2c-4548-8bdb-03d0641d0c9e",
+      "b6c45884-a1b4-4fb4-99e5-a616035492f9",
+      "6ebe3c02-5d8e-4956-a81c-e6e8a29facf8",
+      "94c46133-e6bb-4e6c-a3a8-c833df353483"
+    ],
+    "BI_Wellbeing": [],
+    "NSI_Occupancy": []
+  },
+  "Zero-aware": {
+    "ED_Water": [],
+    "BI_Occupancy": [],
+    "ED_Thermal": [],
+    "NSI_Wellbeing": [
+      "3"
+    ],
+    "NSI_Occupancy": [
+      "3"
+    ]
+  },
+  "DB_TABLES": {
+    "edgestadium-data": [
+      "ED_Energy",
+      "ED_Occupancy",
+      "ED_Thermal",
+      "ED_Water",
+      "ED_Wellbeing",
+      "TDemo"
+    ],
+    "hnkscheepsvaart-data": [
+      "HNK_Scheepsvaart"
+    ],
+    "hnksloterdijk-data": [
+      "HNK_Sloterdijk"
+    ],
+    "tshhub-data": [
+      "TSH_Occupancy"
+    ],
+    "wtcdenhaag-data": [
+      "BI_Energy",
+      "BI_Occupancy",
+      "BI_Wellbeing"
+    ],
+    "nsihqrgcenterpoint-data": [
+      "NSI_Wellbeing",
+      "NSI_Energy",
+      "NSI_Occupancy"
+    ]
+  },
+  "Buildings Query": {
+    "Edge Stadium": "edgestadium-data",
+    "WTC Den Haag": "wtcdenhaag-data",
+    "NSI": "nsihqrgcenterpoint-data",
+    "HNK Scheepsvaart": "hnkscheepsvaart-data",
+    "HNK Sloterdijk": "hnksloterdijk-data",
+    "TSH": "tshhub-data"
+  },
+  "User Input To Name": {
+    "1": "Edge Stadium",
+    "2": "WTC Den Haag",
+    "3": "NSI",
+    "4": "HNK Scheepsvaart",
+    "5": "HNK Sloterdijk",
+    "6": "TSH"
+  },
+  "List Last Updated": "24-07-2025"
+}

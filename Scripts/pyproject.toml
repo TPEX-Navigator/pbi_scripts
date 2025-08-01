@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pbi-versioncontrol"
+version = "0.1.0"
+description = "Changelogs for PBI projects & Reports"
+package-mode = true
+authors = ["khanhtrue253 <chunamkhanh12@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "pbi_versioncontrol", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12, <4.0"
+azure-kusto-data = "*"
+python-dotenv = "*"
+provisioning = { git = "https://github.com/TPEX-Navigator/provisioning.git", rev = "v1.0.6" }
+weekly_eh_check = { git = "https://github.com/TPEX-Navigator/weekly_eh_check.git"}
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+validate = "pbi_versioncontrol.validation:main"
