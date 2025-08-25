@@ -114,5 +114,5 @@ def email_normal_sensors(removed_sensors):
                                         f"""See attachment for sensors that was flagged as abnormal, and has now started to measure again.
 Would be nice to run query and check them out to make sure.
                                         """, 
-                                        {"data validation": "k.chu@tpex.com"}, df)
+                                        {"data validation": "p.teunizen@tpex.com"}, df)
     return df

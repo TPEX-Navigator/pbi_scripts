@@ -69,31 +69,8 @@ with open(data_path, 'r', encoding='utf-8') as f:
         print(f"Error reading config file: {e}")
 
 def user_input():
-    while True:
-        list = ["1", "2", "3", "4", "5", "6"]
-        name = input(f"""Which building to check? Choose from the following codes
-1: Edge Stadium  , 2: WTC Den Haag
-3: NSI           , 4: HNK Scheepsvaart,
-5: HNK Sloterdijk, 6: TSH
-Press Enter to check all buildings: """)
-        if name == '':
-            name = None
-            break
-        elif name in list:
-            break
-        else:
-            print("Invalid building code: Enter correct number")
-    
-    while True:
-        day = input("How many days ago to check? Press Enter to check by default (7): ")
-        if day == '':
-            day = 7
-            break
-        try:
-            day = int(day)
-            break
-        except (ValueError, TypeError):
-            print("Invalid input: please enter a number.")
+    name = None
+    day = 7
     return name, day
 
 

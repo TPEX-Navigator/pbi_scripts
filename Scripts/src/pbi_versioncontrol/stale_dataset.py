@@ -51,6 +51,6 @@ def stale_data_check(building_code):
 {dataset_to_check}. 
 {timestamp} 
 Update the table by going to ADX, run .set_or_replace table with Create_ command, OR run databaseupdate.py script in PBI-versioncontrol github.""", 
-                                        {"data validation": "k.chu@tpex.com"}, None)
+                                        {"data validation": "p.teunizen@tpex.com"}, None)
     else:
         print(f"All dataset checked up to date for all buildings")

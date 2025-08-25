@@ -264,7 +264,7 @@ Clarification:
     - Known frozen values: We found out that the sensors is not properly sending data for ingestion in DT, and should check up on them.
     - Values standing still: Sensor has been sending the same value every hour to the DT for the past X day, signifying that the sensor's data is not properly communicated with DT.
                                         """, 
-                                        {"data validation": "k.chu@tpex.com"}, df)
+                                        {"data validation": "p.teunizen@tpex.com"}, df)
     return frozen_sensors_new, zeros
 
 def update_config(labeled_table):
